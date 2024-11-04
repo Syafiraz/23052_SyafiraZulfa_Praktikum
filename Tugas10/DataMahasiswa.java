@@ -15,11 +15,10 @@ public class DataMahasiswa {
     private String MataKuliah;
     private double nilai1;
     private double nilai2;
-    private double nilai3; // UTS
+    private double nilai3; 
     private double nilai4;
     private double nilai5;
     
-    // Constructor
     public DataMahasiswa(String NIM, String Nama, String Alamat, String MataKuliah) {
         this.NIM = NIM;
         this.Nama = Nama;
@@ -40,7 +39,6 @@ public class DataMahasiswa {
         return MataKuliah;
     }
     
-    // Getter and Setter for each score
     public void setNilai1 (double nilail) { this.nilai1 = nilail; }
     public void setNilai2 (double nilai2) { this.nilai2 = nilai2; }
     public void setNilai3 (double nilai3) { this.nilai3 = nilai3; }
@@ -51,7 +49,7 @@ public class DataMahasiswa {
     public double getNilai3() { return nilai3; }
     public double getNilai4() { return nilai4; }
     public double getNilai5() { return nilai5; }    
-    // Method to calculate final score based on weights
+
     public double calculateNilaiAkhir() {
         return (nilai1 * 0.10) + (nilai2 * 0.15) + (nilai3 * 0.25) + (nilai4 * 0.15) + (nilai5 * 0.35);
     }
