@@ -51,7 +51,7 @@ public class DataMahasiswa {
     public double getNilai3() { return nilai3; }
     public double getNilai4() { return nilai4; }
     public double getNilai5() { return nilai5; }    
-    // Method to calculate final score based on weights
+
     public double calculateNilaiAkhir() {
         return (nilai1 * 0.10) + (nilai2 * 0.15) + (nilai3 * 0.25) + (nilai4 * 0.15) + (nilai5 * 0.35);
     }
