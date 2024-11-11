@@ -16,8 +16,7 @@ import java.util.Scanner;
  * @author Auriga
  */
 public class testing {
-//disini hanya untuk testing sesuai dengan yang kang dzikri contohkan saat kelas
-//saya juga bikin page login dengan jframeform
+
     /**
      * @param args the command line arguments
      */
